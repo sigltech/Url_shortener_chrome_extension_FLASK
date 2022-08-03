@@ -1,0 +1,89 @@
+html {
+    font-size: 16px;
+    background-image: linear-gradient(225deg, #004E64ff, #355669ff, #6A5D6Dff, #9F6572ff, #D46C76ff);
+    height: 100%;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box; 
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 1rem;
+}
+
+#input-el {
+    border: 2px solid transparent;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+#input-el:hover,
+#input-el:focus {
+    box-shadow: 00 7px 30px #fff;
+    outline: none;
+}
+
+#input-el::placeholder {
+    color: #fff;
+}
+
+#form-submit {
+    border: transparent 2px solid;
+    border-radius: 7px;
+    background-color: #4CAF50;
+    font-size: 1.5rem;
+    color: #fff;
+    min-width: 4rem;
+    max-width: 10rem;
+    height: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+.url-container {
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.url-container a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem 0 0;
+}
+
+.url-container button {
+    border: transparent 2px solid;
+    border-radius: 7px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    margin: 0 1rem 0 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.url-container button:hover {
+    border: #4CAF50 2px solid;
+    background-color: #fff;
+    color: #4CAF50;
+    transition: all 0.3s ease-in-out;
+}
+
+#shortened-url {
+    display: flex;
+    flex-direction: column;
+}
+
+#shortened-url button {
+    cursor: pointer;
+}
+
+
+
